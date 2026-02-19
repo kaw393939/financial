@@ -6,6 +6,10 @@ A minimal 2-page web app for students:
 - Adjust assumptions (effective tax rate + optional safety buffer).
 - See the gross monthly/annual salary needed to afford the budget.
 
+Live site:
+
+- https://kaw393939.github.io/financial/
+
 ## Getting Started
 
 Install dependencies:
