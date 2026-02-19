@@ -10,6 +10,21 @@ Live site:
 
 - https://kaw393939.github.io/financial/
 
+## Docs (how/why this was built)
+
+This repository is also a teaching example of **spec-driven development** + **agentic orchestration** + **test-first delivery**.
+
+- Student docs index: ./docs/README.md
+- Process overview: ./docs/PROCESS.md
+- Testing guide (unit vs integration vs e2e, positive vs negative): ./docs/TESTING.md
+- Agent prompt templates (including “write me the TDD sprints…”): ./docs/AGENT_PROMPTS.md
+
+Primary spec artifacts:
+
+- ./project_management/letter1.md
+- ./project_management/completed /00-tdd-sprint-overview.md
+- ./project_management/completed /
+
 ## Getting Started
 
 Install dependencies:
