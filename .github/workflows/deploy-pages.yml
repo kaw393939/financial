@@ -26,20 +26,18 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: budget-to-income-planner/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install
-        working-directory: budget-to-income-planner
         run: npm ci
 
       - name: Build (static export)
-        working-directory: budget-to-income-planner
         run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: budget-to-income-planner/out
+          path: out
 
   deploy:
     needs: build
