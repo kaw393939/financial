@@ -14,16 +14,17 @@ Live site:
 
 This repository is also a teaching example of **spec-driven development** + **agentic orchestration** + **test-first delivery**.
 
-- Student docs index: ./docs/README.md
-- Process overview: ./docs/PROCESS.md
-- Testing guide (unit vs integration vs e2e, positive vs negative): ./docs/TESTING.md
-- Agent prompt templates (including “write me the TDD sprints…”): ./docs/AGENT_PROMPTS.md
+- Start here (student docs index): [docs/README.md](docs/README.md)
+- Textbook-style guide (recommended first read): [docs/TEXTBOOK.md](docs/TEXTBOOK.md)
+- Process overview: [docs/PROCESS.md](docs/PROCESS.md)
+- Testing guide (unit vs integration vs e2e, positive vs negative): [docs/TESTING.md](docs/TESTING.md)
+- Agent prompt templates (including “write me the TDD sprints…”): [docs/AGENT_PROMPTS.md](docs/AGENT_PROMPTS.md)
 
 Primary spec artifacts:
 
-- ./project_management/letter1.md
-- ./project_management/completed /00-tdd-sprint-overview.md
-- ./project_management/completed /
+- MVP letter/spec: [project_management/letter1.md](project_management/letter1.md)
+- TDD sprint overview (source-of-truth formula): [project_management/completed /00-tdd-sprint-overview.md](project_management/completed%20/00-tdd-sprint-overview.md)
+- Completed sprint plan set: [project_management/completed /](project_management/completed%20/)
 
 ## Getting Started
 
